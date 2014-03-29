@@ -1,13 +1,12 @@
 #encoding: utf-8
 
 <header>
-  <% logo = image_tag("logo.png", :alt => "Application exemple", :class => "round") %>
-  <%= link_to logo, root_path %>
+   <%= render 'layouts/logo' %>
   <nav class="round">
     <ul>
       <li><%= link_to "Accueil", root_path %></li>
       <li><%= link_to "Aide", help_path %></li>
-      <li><%= link_to "S'identifier", '#' %></li>
+      <li><%= link_to "Connexion", '#' %></li>
     </ul>
   </nav>
 </header>

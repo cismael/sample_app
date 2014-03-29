@@ -3,7 +3,7 @@
 class UsersController < ApplicationController
 
   def new
-    @titre = "Inscription"
+    @title = "Inscription"
   end
 
 end

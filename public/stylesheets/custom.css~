@@ -116,6 +116,9 @@ a.signup_button {
 }
 
 
+/* /////////////////////////////////////////////////////// */
+
+
 footer {
   text-align: center;
   margin-top: 10px;
