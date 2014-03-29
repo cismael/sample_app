@@ -14,4 +14,8 @@ class PagesController < ApplicationController
     @titre = "À Propos"
   end
 
+  def about
+    @titre = "Aide"
+  end
+
 end
