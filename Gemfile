@@ -5,7 +5,7 @@ gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
 gem 'rake', '12.3.3'
 
 group :development do
-  gem 'rspec-rails', '2.5.0'
+  gem 'rspec-rails', '2.99.0'
 end
 
 group :test do
