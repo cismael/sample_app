@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+
+  # The backend app
+  ruby_on_rails_sample_app:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    deploy :
+      resources:
+        limits:
+          memory: 350M
+    restart: always
