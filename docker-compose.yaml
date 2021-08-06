@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+
+  ruby_on_rails_sample_app:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ruby_on_rails_sample_app_home:/usr/src/app
+    deploy :
+      resources:
+        limits:
+          memory: 350M
+    restart: always
+
+volumes:
+  ruby_on_rails_sample_app_home:
