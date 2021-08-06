@@ -1,11 +1,19 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
+<<<<<<< master
 gem 'rake', '13.0.6'
 gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
 
 group :development do
   gem 'rspec-rails', '5.0.1'
+=======
+gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
+gem 'rake', '12.3.3'
+
+group :development do
+  gem 'rspec-rails', '2.99.0'
+>>>>>>> Update dependency aruba to v0.14.14
 end
 
 group :test do
