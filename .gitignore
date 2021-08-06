@@ -1,7 +1,6 @@
 # IntelliJ
 .idea
 
-.idea
 .bundle
 db/*.sqlite3
 log/*.log
