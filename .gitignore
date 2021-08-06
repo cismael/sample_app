@@ -1,6 +1,14 @@
 # IntelliJ
 .idea
 
+<<<<<<< master
+<<<<<<< master
+.idea
+=======
+>>>>>>> Update .gitignore file
+=======
+.idea
+>>>>>>> Update some dependencies
 .bundle
 db/*.sqlite3
 log/*.log
