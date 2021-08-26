@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allowed files and directories
+!app
+!config
+!db
+!lib
+!public
+!script
+!spec
+!vendor
+!.rspec
+!config.ru
+!Gemfile
+!Gemfile.lock
+!Rakefile
