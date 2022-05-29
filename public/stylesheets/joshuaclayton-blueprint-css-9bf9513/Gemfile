@@ -7,6 +7,6 @@ group :test do
   gem "cucumber", "7.0.0"
   gem "aruba",    "2.0.1"
   gem "rspec", "2.99.0"
-  gem "capybara", "3.35.3"
-  gem "capybara-webkit", "0.14.2"
+  gem "capybara", "0.4.1.2"
+  gem "capybara-webkit", "0.3.0"
 end
