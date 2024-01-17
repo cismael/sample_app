@@ -1,16 +1,16 @@
 source 'http://rubygems.org'
 
-gem 'rails', '7.0.2.4'
+gem 'rails', '5.0.0'
 gem 'rake', '13.0.6'
 gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
 
 group :development do
-  gem 'rspec-rails', '5.1.2'
+  gem 'rspec-rails', '5.0.1'
 end
 
 group :test do
   gem 'rspec', '3.10.0'
-  gem 'webrat', '0.7.3'
+  gem 'webrat', '0.7.1'
 end
 
 # Use unicorn as the web server
