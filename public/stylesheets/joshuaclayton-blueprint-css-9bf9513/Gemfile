@@ -4,7 +4,7 @@ gem "colored"
 gem "chunky_png"
 
 group :test do
-  gem "cucumber", "7.0.0"
+  gem "cucumber", "4.0.0"
   gem "aruba",    "2.0.1"
   gem "rspec", "2.99.0"
   gem "capybara", "3.35.3"
