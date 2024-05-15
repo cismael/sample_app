@@ -8,5 +8,5 @@ group :test do
   gem "aruba",    "2.0.1"
   gem "rspec", "2.99.0"
   gem "capybara", "3.35.3"
-  gem "capybara-webkit", "0.14.2"
+  gem "capybara-webkit", "1.15.1"
 end
