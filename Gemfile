@@ -10,7 +10,7 @@ end
 
 group :test do
   gem 'rspec', '3.10.0'
-  gem 'webrat', '0.7.3'
+  gem 'webrat', '0.7.2'
 end
 
 # Use unicorn as the web server
